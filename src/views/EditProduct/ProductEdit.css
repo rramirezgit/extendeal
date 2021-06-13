@@ -1,0 +1,14 @@
+.productEdit__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #010101;
+
+  display: flex;
+  justify-content: center;
+}
+
+.productEdit__hero-image {
+  max-height: 100px;
+}

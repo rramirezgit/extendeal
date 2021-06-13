@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Proximanova-light';
+  src: local('Proximanova-light'), url(./assets//fonts//proximanova-light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Proximanova-regular';
+  src: local('Proximanova-regular'), url(./assets//fonts//proximanova-regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Proximanova-semibold';
+  src: local('Proximanova-semibold'), url(./assets//fonts//proximanova-semibold.woff2) format('woff2');
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

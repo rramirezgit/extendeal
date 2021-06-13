@@ -1,0 +1,14 @@
+.productNew__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+}
+
+.productNew__hero-image {
+  max-width: 17% !important;
+}
