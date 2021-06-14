@@ -2,7 +2,6 @@ import React, { useEffect, useState, useContext } from 'react';
 import { DataContext } from '../../components/context/DataContext';
 import ListProducts from '../../components/Products/ListProduct/ListProducts';
 import SearchBar from 'material-ui-search-bar';
-import { fade, makeStyles } from '@material-ui/core/styles';
 import './products.css';
 import { Container } from '@material-ui/core';
 
