@@ -15,7 +15,7 @@ const ListProducts = () => {
     let loading = true
 
     useEffect(() => {
-        fetch(`http://localhost:3001/items`)
+        fetch(`https://serverextendeal.herokuapp.com/items`)
             .then(res => res.json())
             .then(
                 (data) => {                    

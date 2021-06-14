@@ -17,7 +17,7 @@ const Products = () => {
     //Function to get items by search
     useEffect(() => {
         // history.push('/')
-        fetch(`http://localhost:3001/items?q=${searchValue}`)
+        fetch(`https://serverextendeal.herokuapp.com/items?q=${searchValue}`)
             .then(res => res.json())
             .then(
                 (data) => {

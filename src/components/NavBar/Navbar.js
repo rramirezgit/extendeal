@@ -1,10 +1,7 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { MemoryRouter as Router } from 'react-router';
+import React from 'react';
 import { useHistory } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
 import './style.css';
-import { DataContext } from '../context/DataContext';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -85,11 +82,6 @@ export function Navbar() {
 
   const history = useHistory();
   const handleClick = () => history.push('/newProduct');
-
- 
-
-  const WrappedIcon = (props) => <Icon {...props} />;
-  WrappedIcon.muiName = 'Icon';
 
   const classes = useStyles();
 

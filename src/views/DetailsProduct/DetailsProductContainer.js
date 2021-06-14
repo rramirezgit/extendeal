@@ -11,7 +11,7 @@ const DetailsProductContainer = (props) => {
 
   useEffect(() => {
     setstate({ ...state, loading: true, error: null });
-    fetch(`http://localhost:3001/items?q=${props.match.params.productId}`)
+    fetch(`https://serverextendeal.herokuapp.com/items?q=${props.match.params.productId}`)
       .then(res => res.json())
       .then(
         (data) => {
@@ -26,7 +26,7 @@ const DetailsProductContainer = (props) => {
   const handleDeleteproduct = async e => {
     setstate({ ...state, loading: true, error: null });
 
-    fetch(`http://localhost:3001/items/${props.match.params.productId}`, { method: 'DELETE' })
+    fetch(`https://serverextendeal.herokuapp.com/items/${props.match.params.productId}`, { method: 'DELETE' })
       .then(
         () => {
           props.history.push('/');

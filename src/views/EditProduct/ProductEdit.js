@@ -26,12 +26,11 @@ const ProductEdit = (props) => {
     }
   })
 
-  const { loading, error, form } = state
 
   useEffect(() => {
     setstate({ ...state, loading: true, error: null });
 
-    fetch(`http://localhost:3001/items?q=${props.match.params.productId}`)
+    fetch(`https://serverextendeal.herokuapp.com/items?q=${props.match.params.productId}`)
       .then(res => res.json())
       .then(
         (data) => {
@@ -59,7 +58,7 @@ const ProductEdit = (props) => {
     e.preventDefault();
     setstate({ ...state, loading: true, error: null });
     try {
-      await fetch(`http://localhost:3001/items/${props.match.params.productId}`, {
+      await fetch(`https://serverextendeal.herokuapp.com/items/${props.match.params.productId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'

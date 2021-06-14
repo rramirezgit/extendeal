@@ -46,7 +46,7 @@ const NewProduct = () => {
     setstate({ ...state, loading: true, error: null });
 
     try {
-      await fetch(`http://localhost:3001/items`, {
+      await fetch(`https://serverextendeal.herokuapp.com/items`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
