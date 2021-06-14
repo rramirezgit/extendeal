@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdf00c2d.chunk.css",
+    "main.js": "/static/js/main.7d7d35c0.chunk.js",
+    "main.js.map": "/static/js/main.7d7d35c0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b1d1cc5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b1d1cc5.js.map",
+    "static/js/2.abf8dbbb.chunk.js": "/static/js/2.abf8dbbb.chunk.js",
+    "static/js/2.abf8dbbb.chunk.js.map": "/static/js/2.abf8dbbb.chunk.js.map",
+    "static/js/3.9f3c5b68.chunk.js": "/static/js/3.9f3c5b68.chunk.js",
+    "static/js/3.9f3c5b68.chunk.js.map": "/static/js/3.9f3c5b68.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cdf00c2d.chunk.css.map": "/static/css/main.cdf00c2d.chunk.css.map",
+    "static/js/2.abf8dbbb.chunk.js.LICENSE.txt": "/static/js/2.abf8dbbb.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/proximanova-semibold.f5be6391.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b1d1cc5.js",
+    "static/js/2.abf8dbbb.chunk.js",
+    "static/css/main.cdf00c2d.chunk.css",
+    "static/js/main.7d7d35c0.chunk.js"
+  ]
+}
